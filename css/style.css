@@ -1,0 +1,24 @@
+.table_product{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.table_product > tr{
+    border: 1px solid black;
+}
+.table_product th{
+width: 150px;
+text-align: left;
+border-bottom: 1px solid black;
+padding: 10px 0px ;
+}
+.table_product td{
+    padding: 5px 0px;
+    border-bottom: 1px solid black;
+}
+.contain_add_pro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
